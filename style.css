@@ -1,0 +1,86 @@
+#header {
+  background-color:#B9DE6A !important;
+}
+
+#header a {
+  color: #625B84;
+  font-size: 14px;
+}
+
+.info-main {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.info-secondary {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.info-action {
+  font-size: 28px;
+  color:#189BBE; 
+}
+
+.info-line {
+  border-bottom: 4px #189BBE solid;
+}
+
+.info-breakline {
+  background-image: linear-gradient(bottom, #ececec 67%, #ffffff 33%);
+  background-image: linear-gradient(bottom, #ececec 67%, #ffffff 33%);
+  background-image: -o-linear-gradient(bottom, #ececec 67%, #ffffff 33%);
+  background-image: -moz-linear-gradient(bottom, #ececec 67%, #ffffff 33%);
+  background-image: -webkit-linear-gradient(bottom, #ececec 67%, #ffffff 33%);
+  background-image: -ms-linear-gradient(bottom, #ececec 67%, #ffffff 33%);
+}
+
+.musics {
+  background-color: #ececec;
+}
+
+.music-info-main {
+  color: #757575;
+  font-size: 54px;
+  line-height: 46px;
+}
+
+.music-info-secondary {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.artist-picture img{
+  width: 100%;
+}
+
+.artist-picture a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.artist-picture a:hover {
+  position: relative;
+}
+
+.artist-picture a:hover::before {
+  content: url(images/play.png);
+  position: absolute;
+}
+
+.artist-name {
+  background-color: #220604;
+  color: #ffffff;
+}
+
+.artist-song {
+  background-color: #ffffff;
+}
+
+
+
+
+.color-secondary {
+  color: #B7A8A5;
+}
